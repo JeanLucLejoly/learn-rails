@@ -10,7 +10,7 @@
 	<div class="form-centered">
 		<%= simple_form_for @visitor do |f| %>
 			<%= f.error_notification %>
-			<%= f.input :email, label: false, :spaceholder => 'jl@lejoly.com' %>
+			<%= f.input :email, label: false, :placeholder => 'jl@lejoly.com' %>
 			<br/>
 			<%= f.button :submit, "sign up for the newsletter", :class => "submit" %>
 		<% end%>
